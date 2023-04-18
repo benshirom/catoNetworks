@@ -1,0 +1,231 @@
+/* .logoAndLogin{
+    
+} */
+@font-face {
+  font-family: 'NHaasGroteskDSPro-65Md';
+  src: url('fonts/NHaasGroteskDSPro-65Md.ttf') format('truetype');
+}
+.logo {
+ 
+  height: 100px;
+  width: 200px;
+  top: -35px;
+    left: 5px;
+ 
+
+}
+
+.logo img {
+  width: 70%;
+  height: 100%;
+}
+
+
+.aLogin {
+  text-decoration: none;
+  color: white;
+  
+  
+}
+
+.aLogin:hover {
+  text-decoration: none;
+  color: #00d084;
+  background-color: white;
+  border-radius: 10%;
+}
+.btnContact {
+  background-color: #fdca0b ; 
+  border: 1px solid #fdca0b ;
+  border-radius: 2px;
+ padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 4.31; */
+  letter-spacing: normal;
+  color: #222c33;
+  margin: 0px 15px 0px 0px;
+}
+.btnContact:hover {
+  background-color: white;
+  translate: 0 -10%;
+  transition: 1000ms;
+
+}
+.selectLanguage{
+  border: 1px solid black;
+  border-radius: 100%;
+  background-color: #a7abad;
+  height: 30px;;
+  width: 30px;;
+  color: white;
+  font-weight: 500;
+
+}
+
+header {
+  background-image: url('../images/Header.png');
+  background-size: cover;
+  background-position: center center;
+  min-height: 500px;
+  padding: 40px 8px;
+  position: absolute;
+
+}
+.secenderyLogo{
+  height: 250px;
+  
+}
+.secenderyLogo img{
+  width: 100%;
+  height: 100%;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.headerBottom {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.headLine h1{
+ 
+  font-family: 'NHaasGroteskDSPro-65Md', sans-serif;
+  
+  margin: 90px 40px 91px 50px;
+  font-size: 88px;
+  font-weight: bolder;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.77;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.topNav {
+  height: 0;
+  top: 1px;
+  z-index: 9;
+
+}
+
+
+
+
+
+.topNav nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 0 8px;
+
+ 
+  transition: 1000ms;
+  
+  font-family: 'NHaasGroteskDSPro-65Md', sans-serif;
+  font-size: 17px;
+  font-weight: bolder;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 4.06;
+  letter-spacing: 0.43px;
+  text-align: right;
+}
+
+
+
+
+.topNav h2,
+.topNav h4 {
+  margin: 0;
+  color: white;
+}
+
+.topNav h4 {
+  font-weight: normal;
+}
+
+
+
+.topNav nav a:hover {
+  text-decoration: underline;
+  transform: scale(1.2, 1.2);
+
+}
+
+.topNav nav a:focus {
+  color: #00d084;
+  text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+.quotesSection {
+  min-height: 400px;
+}
+section .box {
+  position: relative;
+  background: #f6f6f6;
+  text-align: center;
+  transition: 800ms;
+  width: 1380px;
+  height: 610px;
+  padding: 64px 65px 65px 64px;
+  border-radius: 8px;
+  border: solid 0 #a7abad;
+}
+
+section .box h2 {
+  width: 605px;
+  height: 154px;
+  margin: 0 50px 36px  0;
+  font-family: 'NHaasGroteskDSPro-65Md', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #158864;
+}
+section .box p {
+  width: 605px;
+  height: 292px;
+  margin: 31px 94px 4px 0;
+  font-family: 'NHaasGroteskDSPro-65Md', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.66px;
+  text-align: left;
+  color: #222c33;
+}
+section .box .boxImg {
+  width: 597px;
+  height: 441px;
+}
+section .box .boxImg img {
+  width: 100%;
+  height: 100%;
+ ;
+}
+
+.firstBlock{
+  height: 280px;
+}
