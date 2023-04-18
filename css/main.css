@@ -77,7 +77,7 @@
 
     font-family: 'NHaasGroteskDSPro-65Md', sans-serif;
     font-size: 48px;
-    font-weight: normal;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 0.83;
@@ -118,6 +118,17 @@
     border: solid 1px #158864;
 }
 
+.sliderH3 {
+    padding-top: 25px;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.67;
+    letter-spacing: 0.48px;
+    color: #158864;
+}
+
 .latestNewsSection {
     padding: 57px 512px 57px 513px;
     background-color: #f6f6f6;
@@ -128,7 +139,7 @@
     font-family: 'NHaasGroteskDSPro-65Md', sans-serif;
 
     font-size: 48px;
-    font-weight: normal;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
@@ -186,6 +197,65 @@
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
+    text-align: left;
+    color: #222c33;
+}
+
+.sharedValuesContainer {
+    margin: 40px 271px;
+
+}
+
+.sharedValuesH2 {
+    margin: 40px 0px;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    text-align: center;
+    color: #158864;
+}
+
+.sharedValuesBox {
+    margin: 0px 25px;
+}
+
+.sharedValuesImg {
+    width: 650px;
+    height: auto;
+    border-radius: 8px;
+    /* margin: 10px 100px; */
+    /* overflow: hidden; */
+
+}
+
+.sharedValuesImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.sharedValuesBox h3 {
+    font-size: 32px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: 0.96px;
+    text-align: left;
+    color: #158864;
+    padding: 25px 0px;
+    border-bottom: 1px solid #158864;
+}
+
+.sharedValuesBox p {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.54px;
     text-align: left;
     color: #222c33;
 }
