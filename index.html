@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/accordion.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -17,12 +18,18 @@
     <!-- slider -->
     <link rel="stylesheet" type="text/css" href="/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <!-- js -->
+    <script defer  src="js/index.js"></script>
+    <script src="js/acordionClass.js"></script>
+    <script src="js/accordion.js"></script>
+
     <title>Porsche Formula E Team | Cato Networks</title>
+
 </head>
 
 <body>
     <div class="container-fluid topNav position-relative ">
-        <div class="d-flex justify-content-end pt-1">
+        <div id="topNavA" class="d-flex justify-content-end pt-1">
             <a class="aLogin m-1 px-2" href="#">login</a>
             <div>
                 <div class="selectLanguage d-flex justify-content-center align-content-center text-center ">
@@ -32,23 +39,23 @@
 
             </div>
         </div>
-        <div class="d-flex justify-content-end fixed-top  mt-4 ">
+        <div id="topNavB" class="d-flex justify-content-end fixed-top  mt-4 ">
             <div class="logo position-absolute  ps-1">
 
-                <img src='https://www.catonetworks.com/wp-content/uploads/2021/10/white.svg' alt="">
+                <img id="id_logoImg" src='https://www.catonetworks.com/wp-content/uploads/2021/10/white.svg' alt="">
             </div>
             <div>
 
-                <nav>
-                    <a href="#">SASE</a>
-                    <a href="#">SSE</a>
-                    <a href="#">Product</a>
-                    <a href="#">Use Cases</a>
-                    <a href="#">Customers</a>
-                    <a href="#">Partners</a>
-                    <a href="#">Managed Services</a>
-                    <a href="#">Company</a>
-                    <a href="#">Resources </a>
+                <nav >
+                    <a class="myFontATrans" href="#">SASE</a>
+                    <a class="myFontATrans" href="#">SSE</a>
+                    <a class="myFontATrans" href="#">Product</a>
+                    <a class="myFontATrans" href="#">Use Cases</a>
+                    <a class="myFontATrans" href="#">Customers</a>
+                    <a class="myFontATrans" href="#">Partners</a>
+                    <a class="myFontATrans" href="#">Managed Services</a>
+                    <a class="myFontATrans" href="#">Company</a>
+                    <a class="myFontATrans" href="#">Resources </a>
                     <button class="btnContact">Contact Us</button>
                 </nav>
             </div>
@@ -177,7 +184,7 @@
             <h3 class="sliderH3 text-center">Q&A with the TAG Heuer Porsche Formula E Team</h3>
             <section class="regular slider">
                 <div class="sliderBox">
-                        <img src="https://www.catonetworks.com/wp-content/uploads/2023/03/thomas_cape_s.png">
+                    <img src="https://www.catonetworks.com/wp-content/uploads/2023/03/thomas_cape_s.png">
                     <p>Q&A With the Lead IT Product Manager at Tag Heuer Porsche Formula E Team</p>
                 </div>
                 <div class="sliderBox">
@@ -204,7 +211,7 @@
                     </div>
                     <p>Mexico Race Q&A</p>
                 </div>
-                
+
             </section>
         </section>
         <!-- slider video end -->
@@ -361,7 +368,22 @@
 
             </div>
         </section>
-        <!-- Shared Values -->
+        <!-- Shared Values end -->
+
+        <!-- QA  -->
+        <section class="container-fluid QuestionsSection ">
+            <div class="container py-5 my-3">
+                <h2 class="QuestionH2">Frequently Asked Questions</h2>
+                <div id="paretAccordion" class="myAccordion">
+                   
+                    </div>
+                </div>
+            </div>
+
+        </section>
+                <!-- QA end -->
+                <section style="height: 400px;"></section>
+
     </main>
 
     <!-- javaScript -->
@@ -379,6 +401,7 @@
 
         });
     </script>
+    <script src="js/accordion.js" type="text/javascript"></script>
 </body>
 
 </html>

@@ -1,0 +1,45 @@
+.myAccordion-item {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .accordion-title {
+    display: flex;
+    align-items: center;
+    margin: 0px 22px 0px 22px;
+    cursor: pointer;
+    font-size: 26px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  color:#158864 ;
+  }
+  
+  .accordion-title #qaIcon{
+    background-image: url('https://www.catonetworks.com/wp-content/themes/airfleet/dist/images/gray%20green%20+%20icon.28b72f5366.png');
+    height: 20px;
+    width: 20px;
+    margin: 10px 10px;
+    background-position: center center;
+    background-size: cover;
+  }
+  .active .accordion-title #qaIcon{
+    background-image: url('https://www.catonetworks.com/wp-content/themes/airfleet/dist/images/gray%20green%20-%20icon.db9a98b3d0.png');
+    height: 20px;
+    width: 20px;
+    margin: 10px 10px;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  
+  .active .accordion-content{
+    display:block
+  }
+  .accordion-content {
+    display: none;
+    padding: 9px 55px 16px 55px;
+  }

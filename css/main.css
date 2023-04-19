@@ -259,3 +259,18 @@
     text-align: left;
     color: #222c33;
 }
+.QuestionsSection{
+    background-color: #f6f6f6
+}
+.QuestionsSection .QuestionH2{
+text-align: center;
+margin-bottom: 49px;
+/* padding: 35px 0px; */
+font-size: 45px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #158864;
+}
