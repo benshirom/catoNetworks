@@ -18,9 +18,8 @@ const createLightBoxHtml = function () {
   document.body.innerHTML += `
   <div id="light_box" class="light_box">
   <div class="inside_box">
+  <button class="btn">X</button>
     <img src="" >
-    <p>bal bal bal on the picture....</p>
-    <button>close</button>
   </div>
   </div>
   `
@@ -42,7 +41,7 @@ const declareEvents = function () {
   //console.log(imgList);
   // לולאה על כל התמונות
   imgList.forEach(function (itemElem) {
-    console.log(itemElem)
+    // console.log(itemElem)
 
     // גורם שהסמן עכבר יהפוך לאצבע ת
     // itemElem.style.cursor = "pointer";
@@ -54,7 +53,7 @@ const declareEvents = function () {
       // משנה את מקור התמונה בלייט בוקס למקור של התמונה
       // שלחצנו עליה
       light_box.querySelector("img").src = itemElem.src;
-      light_box.querySelector("p").innerHTML = itemElem.alt;
+      // light_box.querySelector("p").innerHTML = itemElem.alt;
       // alert(itemElem.alt); 
     })
   })

@@ -206,8 +206,7 @@
 }
 
 .sharedValuesContainer {
-    margin: 40px 271px;
-
+    margin: 40px 260px;
 }
 
 .sharedValuesH2 {
@@ -277,4 +276,29 @@ font-size: 45px;
   line-height: 1.33;
   letter-spacing: normal;
   color: #158864;
+}
+
+@media(max-width:1450px){
+    .quoteP {
+        width: 450px;
+        height: 166px;
+        margin: 25px 4px 29px 0px;
+    
+    }
+    
+    .quoteP p {
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.63;
+        letter-spacing: 0.48px;
+        text-align: left;
+        color: #222c33;
+        font-family: 'NHaasGroteskDSPro-65Md', sans-serif;
+    
+    }
+    .sharedValuesContainer {
+        margin: 40px 64px;
+    }
 }

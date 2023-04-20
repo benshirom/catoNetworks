@@ -22,30 +22,33 @@
 נמצאים בו */
 .light_box .inside_box{
   background: white; 
-  padding:8px;
+  /* padding:8px; */
   max-width: 600px;
   width:100%;
   text-align: center;
   box-sizing: border-box;
   border-radius: 30px;
+  position: relative;
 }
 
 .light_box .inside_box img{
   max-width: 600px;
-  width:98%;
+  width:100%;
   box-sizing: border-box;
   border-radius: 30px;
 }
 
-.light_box .inside_box p{
-  color:grey;
-  font-size: 2em;
-}
+
 
 
 .light_box .inside_box button{
-  background: skyblue;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.529);
   border:none;
-  padding:12px 24px;
+  padding:2px 8px;
   border-radius: 12px;
+
+  position: absolute;
+   top: 0px;
+   left: 95%;
 }

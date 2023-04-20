@@ -130,7 +130,6 @@ header {
 .myFontATrans {
   color: white;
   text-decoration: none;
-  font-size: 1.5em;
   padding: 0 8px;
 
  
@@ -148,7 +147,6 @@ header {
 .myFontAlight {
   color: black;
   text-decoration: none;
-  font-size: 1.5em;
   padding: 0 8px;
 
  
@@ -261,9 +259,50 @@ section .box .boxImg {
 section .box .boxImg img {
   width: 100%;
   height: 100%;
- ;
+  background-image: url("/images/Layer-17.png");
 }
 
 .firstBlock{
   height: 280px;
+}
+@media(max-width:1450px){
+  .myFontATrans {
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.03;
+    letter-spacing: 0.38px;
+  }
+  .myFontAlight {
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.03;
+    letter-spacing: 0.38px;
+  }
+  section .box h2 {
+    width: 550px;
+    font-size: 42px;
+    line-height: 1.13;
+  
+}
+section .box p{
+  width:550px;
+ padding: 30px 0px;
+  font-size: 17px;
+ 
+}
+section .box .boxImg {
+  width: 450px;
+  height: 440px;
+}
+section .box .boxImg img {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/Layer-658.png");
+}
+
+
 }

@@ -1,8 +1,8 @@
 function init(){
     createAllQa(qaArray)
     createAllSlides(slidesArray)
-    setEvents()
     lightBox_init();
+    setEvents()
 }
 
 
@@ -42,7 +42,8 @@ const setEvents=()=>{
     let logoDiv = document.querySelector('.logo');
     let logoImg = document.querySelector('#id_logoImg');
     window.onscroll = function() {
-   
+      console.log(document.documentElement.scrollTop)
+      console.log(document.body.scrollTop )
       if (document.documentElement.scrollTop <= 1){
         // topNavA.className='none';
         topNavA.className="d-flex justify-content-end pt-1"
