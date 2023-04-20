@@ -1,6 +1,8 @@
 function init(){
     createAllQa(qaArray)
+    createAllSlides(slidesArray)
     setEvents()
+    lightBox_init();
 }
 
 
@@ -9,6 +11,12 @@ function createAllQa(arr){
     arr.forEach(function(item) {
         let accordionItem = new AccordionClass("#paretAccordion", item);
         accordionItem.render();
+    });
+}
+function createAllSlides(arr){
+    arr.forEach(function(item) {
+        let slideItem = new SlideClass("#parentSlider", item);
+        slideItem.render();
     });
 }
 
@@ -34,8 +42,7 @@ const setEvents=()=>{
     let logoDiv = document.querySelector('.logo');
     let logoImg = document.querySelector('#id_logoImg');
     window.onscroll = function() {
-      console.log(document.documentElement.scrollTop)
-      console.log(document.body.scrollTop )
+   
       if (document.documentElement.scrollTop <= 1){
         // topNavA.className='none';
         topNavA.className="d-flex justify-content-end pt-1"
@@ -61,7 +68,7 @@ const setEvents=()=>{
       }
     };
     
-    console.log()
+    
 
 }
 
@@ -91,6 +98,41 @@ let qaArray = [
       a:"This depends on which country of residence you will be viewing from. Find more information here: https://www.fiaformulae.com/en/ways-to-watch"
   },
 ];
+let slidesArray = [
+  {
+      id:1,
+      img: "https://www.catonetworks.com/wp-content/uploads/2023/03/thomas_cape_s.png",
+      text: "Q&A With the Lead IT Product Manager at Tag Heuer Porsche Formula E Team",
+      url: "#",
+  },
+  {
+      id:2,
+      img: "https://www.catonetworks.com/wp-content/uploads/2023/03/florian_saudi_s.png",
+      text: " Saudi Arabia Race Q&A",
+      url: "#",
+  },
+  {
+      id:3,
+      img: "https://www.catonetworks.com/wp-content/uploads/2023/03/friedemann_india_s.png",
+      text: "Q&A With the Head of IT at Porsche Motorsport",
+      url: "#",
+  },
+  {
+      id:4,
+      img: "https://www.catonetworks.com/wp-content/uploads/2023/04/thomas_sao_paolo.png",
+      text: "São Paulo Race Q&A",
+      url: "#",
+  },
+  {
+      id:5,
+      img: "https://www.catonetworks.com/wp-content/uploads/2023/03/florian_mex_s.png",
+      text: "Mexico Race Q&A",
+      url: "#",
+  },
+  
+];
+
+
 
 
 
