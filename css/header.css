@@ -5,16 +5,7 @@
   font-family: 'NHaasGroteskDSPro-65Md';
   src: url('fonts/NHaasGroteskDSPro-65Md.ttf') format('truetype');
 }
-.navtrans{
-  background-color: transparent;
-}
-.navlight{
-  background-color: white;
-}
-.navTranstion{
-  transition: 200ms;
 
-}
 .logo {
  
   height: 100px;
@@ -194,14 +185,28 @@ header {
 
 }
 
-.topNav nav a:focus {
+.myFontAlight:hover {
   color: #00d084;
-  text-decoration: underline;
+
+}
+.myFontTrans:hover {
+  color: white;
 
 }
 
 
-
+.navtrans{
+  background-color: transparent;
+  
+  
+}
+.navlight{
+  background-color: white;
+}
+.navTranstion{
+  transition: 200ms;
+  transition-timing-function: ease-out;
+}
 
 
 
