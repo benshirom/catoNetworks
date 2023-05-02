@@ -34,20 +34,22 @@
 
 <body>
     <div class="container-fluid topNav position-relative ">
-        <div id="topNavA" class="d-flex justify-content-end pt-1">
-            <a class="aLogin m-1 px-2" href="#">login</a>
-            <div>
-                <div class="selectLanguage d-flex justify-content-center align-content-center text-center ">
-                    <span class="mx-auto my-auto">EN</span>
+        <div class="">
+
+            <div id="topNavA" class="d-flex justify-content-end pt-1">
+                <a class="aLogin m-1 px-2" href="#">login</a>
+                <div>
+                    <div class="selectLanguage d-flex justify-content-center align-content-center text-center ">
+                        <span class="mx-auto my-auto">EN</span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="topNavB" class="d-flex justify-content-end navTranstion fixed-top  mt-4 ">
-            <div class="logo position-absolute  ps-1">
-                <img id="id_logoImg" src='https://www.catonetworks.com/wp-content/uploads/2021/10/white.svg' alt="">
-            </div>
-            <div>
-                <nav >
+            <div id="topNavB" class="d-flex justify-content-end navTranstion fixed-top  mt-4 ">
+                <div class="logo position-absolute  ps-1">
+                    <img id="id_logoImg" src='https://www.catonetworks.com/wp-content/uploads/2021/10/white.svg' alt="">
+                </div>
+            <div class="d-flex">
+                <nav class="d-none d-sm-block"  >
                     <a class="myFontATrans" href="#">SASE</a>
                     <a class="myFontATrans" href="#">SSE</a>
                     <a class="myFontATrans" href="#">Product</a>
@@ -57,12 +59,13 @@
                     <a class="myFontATrans" href="#">Managed Services</a>
                     <a class="myFontATrans" href="#">Company</a>
                     <a class="myFontATrans" href="#">Resources </a>
-                    <button class="btnContact">Contact Us</button>
                 </nav>
+                <button class="btnContact">Contact Us</button>
             </div>
         </div>
     </div>
-
+    </div>
+    
     <header class="pb-5 container-fluid d-flex justify-content-center align-content-center">
         <div class="container d-flex justify-content-center align-items-center  ">
             <div class="secenderyLogo">
@@ -75,17 +78,17 @@
 
     </header>
     <!-- empty blocks -->
-    <div class="container-fluid firstBlock py-5 my-5"></div>
+    <div class="container-fluid firstBlock py-5 my-sm-5"></div>
 
     <!-- empty blocks end -->
     <!-- flot card -->
 
-    <section class="container-fluid p-5 mt-4">
-        <div class="row justify-content-around">
+    <section class="container-fluid cardContainer">
+        <div class="row justify-content-around mx-0">
 
 
-            <div class="box d-flex justify-content-between ">
-                <div>
+            <div class="box d-sm-flex  flex-sm-row justify-content-between ">
+                <div class="">
                     <h2>
                         Cato Networks & TAG Heuer Porsche Formula E Team:
                         <br>
@@ -98,7 +101,7 @@
                         everywhere, all with the rapid deployment of hours. With Cato, the IT team is ready for the next
                         curve, race, and whatever's next.</p>
                 </div>
-                <div class="boxImg">
+                <div class="boxImg ">
                     <img src="images/Layer-17.png" alt="">
                 </div>
             </div>
@@ -110,11 +113,11 @@
 
         <section class="container-fluid quotesSection">
             <div class="container ">
-                <div class="d-flex justify-content-md-center ">
+                <div class="d-md-flex   justify-content-md-center ">
                     <div>
                         <div class="quoteImg"></div>
                     </div>
-                    <div class="border-start px-5">
+                    <div class="quoteBox px-xl-5 px-lg-3 px-md-2 px-1">
                         <div class="quoteP">
                             <p>Partnering with one of the most iconic and recognizable brands in the automotive industry
                                 will always be a straightforward decision, but it also comes with the added bonus of
@@ -135,7 +138,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="border-start px-5">
+                    <div class="quoteBox px-xl-5 px-lg-3 px-md-2 px-1">
                         <div class="quoteP">
                             <p>Partnering with one of the most iconic and recognizable brands in the automotive industry
                                 will always be a straightforward decision, but it also comes with the added bonus of
@@ -161,7 +164,7 @@
 
         <!-- LearnMore -->
         <section class="container LearnMoreSection d-flex justify-content-center">
-            <div class="my-auto   h-50">
+            <div class="my-auto ">
                 <div class="text-center ">
 
                     <h3>Cato SASE Cloud</h3>
@@ -183,8 +186,8 @@
 
         <!-- Latest News -->
         <section class="container-fluid latestNewsSection ">
-            <h2 class="LatestNewsH2 text-xl-center my-4"> Latest News</h2>
-            <div class="d-flex justify-content-center align-content-center">
+            <h2 class="LatestNewsH2 text-center my-4"> Latest News</h2>
+            <div class="d-flex flex-column flex-sm-row justify-content-center ">
                 <div class="d-flex flex-column">
                     <a href="#" class="text-decoration-none blogBoxA ">
                         <div class="blogBox d-flex justify-content-between align-content-center">
@@ -258,8 +261,8 @@
         <section class="container-fluid ">
             <div class="sharedValuesContainer">
                 <h2 class="sharedValuesH2">Shared Values</h2>
-                <div class="d-flex  justify-content-evenly align-content-center  my-4 mx-2">
-                    <div class="d-flex justify-content-between align-content-center w-48 ">
+                <div class="d-flex flex-column-reverse flex-sm-row  justify-content-between   my-4 mx-2">
+                    <div class="d-flex flex-column flex-sm-row justify-content-between  textWrap ">
                         <div class="sharedValuesBox">
                             <h3>Ambitious</h3>
                             <p>Porsche and Cato Networks are at the forefront of our respective industries. The
@@ -276,15 +279,15 @@
                                 products and services we provide to the world.</p>
                         </div>
                     </div>
-                    <div class="sharedValuesImg w-48">
-                        <img class="" src="images/Shared-Values-1.png" alt="">
+                    <div class="sharedValuesImg">
+                        <img class="sharedValuesImg1" alt="">
                     </div>
                 </div>
-                <div class="d-flex justify-content-evenly align-content-center my-4 mx-2">
-                    <div class="sharedValuesImg w-48">
-                        <img src="images/Shared-Values-2.png" alt="">
+                <div class="d-flex flex-column flex-sm-row justify-content-between  my-4 mx-2">
+                    <div class="sharedValuesImg">
+                        <img class="sharedValuesImg2" alt="">
                     </div>
-                    <div class="d-flex justify-content-between align-content-center w-48">
+                    <div class="d-flex flex-column flex-sm-row justify-content-between  textWrap">
                         <div class="sharedValuesBox">
                             <h3>Global</h3>
                             <p>We live in a global society today where our colleagues can be located across the world.
@@ -303,8 +306,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex justify-content-evenly align-content-center my-4 mx-2">
-                    <div class="d-flex justify-content-between align-content-center w-48">
+                <div class="d-flex flex-column-reverse flex-sm-row justify-content-between  my-4 mx-2">
+                    <div class="d-flex flex-column flex-sm-row justify-content-between  textWrap ">
                         <div class="sharedValuesBox">
                             <h3>Ambitious</h3>
                             <p>Porsche and Cato Networks are at the forefront of our respective industries. The
@@ -321,8 +324,8 @@
                                 products and services we provide to the world.</p>
                         </div>
                     </div>
-                    <div class="sharedValuesImg w-48">
-                        <img class="" src="images/Shared-Values-3.png" alt="">
+                    <div class="sharedValuesImg ">
+                        <img class="sharedValuesImg3"  alt="">
                     </div>
                 </div>
 

@@ -14,7 +14,7 @@ class SlideClass {
         div.className = "sliderBox"
         div.innerHTML = `
         <img data-img src=${this.img}>
-        <p>${this.text}</p>
+        <p class="sliderP">${this.text}</p>
            `
         document.querySelector(this.parent).append(div)
         // div.addEventListener("click",()=>{window.location.assign(this.url)})

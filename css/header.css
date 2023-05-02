@@ -1,37 +1,27 @@
-/* .logoAndLogin{
-    
-} */
 @font-face {
-  font-family: 'NHaasGroteskDSPro-65Md';
-  src: url('fonts/NHaasGroteskDSPro-65Md.ttf') format('truetype');
+  font-family: "NHaasGroteskDSPro-65Md";
+  src: url("fonts/NHaasGroteskDSPro-65Md.ttf") format("truetype");
 }
 
 .logo {
- 
   height: 100px;
   width: 200px;
   top: -35px;
-    left: 5px;
- 
-
+  left: 5px;
 }
-.miniLogo{
+
+.miniLogo {
   height: 60px !important;
-
 }
-
 
 .logo img {
   width: 70%;
   height: 100%;
 }
 
-
 .aLogin {
   text-decoration: none;
   color: white;
-  
-  
 }
 
 .aLogin:hover {
@@ -40,11 +30,12 @@
   background-color: white;
   border-radius: 10%;
 }
+
 .btnContact {
-  background-color: #fdca0b ; 
-  border: 1px solid #fdca0b ;
+  background-color: #fdca0b;
+  border: 1px solid #fdca0b;
   border-radius: 2px;
- padding: 5px 10px;
+  padding: 5px 10px;
   font-size: 16px;
   font-weight: 600;
   font-stretch: normal;
@@ -52,39 +43,39 @@
   /* line-height: 4.31; */
   letter-spacing: normal;
   color: #222c33;
-  margin: 0px 15px 0px 0px;
+  margin: 15px 15px 15px 10px;
 }
+
 .btnContact:hover {
   background-color: white;
   translate: 0 -10%;
   transition: 1000ms;
-
 }
-.selectLanguage{
+
+.selectLanguage {
   border: 1px solid black;
   border-radius: 100%;
   background-color: #a7abad;
-  height: 30px;;
-  width: 30px;;
+  height: 30px;
+  width: 30px;
   color: white;
   font-weight: 500;
-
 }
 
 header {
-  background-image: url('../images/Header.png');
+  background-image: url("../images/Header.png");
   background-size: cover;
   background-position: center center;
   min-height: 500px;
   padding: 40px 8px;
   position: absolute;
+}
 
-}
-.secenderyLogo{
+.secenderyLogo {
   height: 250px;
-  
 }
-.secenderyLogo img{
+
+.secenderyLogo img {
   width: 100%;
   height: 100%;
 }
@@ -98,13 +89,11 @@ header {
 .headerBottom {
   display: flex;
   justify-content: space-between;
-
 }
 
-.headLine h1{
- 
-  font-family: 'NHaasGroteskDSPro-65Md', sans-serif;
-  
+.headLine h1 {
+  font-family: "NHaasGroteskDSPro-65Md", sans-serif;
+
   margin: 90px 40px 91px 50px;
   font-size: 88px;
   font-weight: bolder;
@@ -120,22 +109,16 @@ header {
   height: 0;
   top: 1px;
   z-index: 9;
-
 }
-
-
-
-
 
 .myFontATrans {
   color: white;
   text-decoration: none;
   padding: 0 8px;
 
- 
   transition: 1000ms;
-  
-  font-family: 'NHaasGroteskDSPro-65Md', sans-serif;
+
+  font-family: "NHaasGroteskDSPro-65Md", sans-serif;
   font-size: 17px;
   font-weight: bolder;
   font-stretch: normal;
@@ -144,15 +127,15 @@ header {
   letter-spacing: 0.43px;
   text-align: right;
 }
+
 .myFontAlight {
   color: black;
   text-decoration: none;
   padding: 0 8px;
 
- 
   transition: 1000ms;
-  
-  font-family: 'NHaasGroteskDSPro-65Md', sans-serif;
+
+  font-family: "NHaasGroteskDSPro-65Md", sans-serif;
   font-size: 17px;
   font-weight: bolder;
   font-stretch: normal;
@@ -161,9 +144,6 @@ header {
   letter-spacing: 0.43px;
   text-align: right;
 }
-
-
-
 
 .topNav h2,
 .topNav h4 {
@@ -175,50 +155,48 @@ header {
   font-weight: normal;
 }
 
-
-
 .topNav nav a:hover {
   text-decoration: underline;
   transform: scale(1.2, 1.2);
-
 }
 
 .myFontAlight:hover {
   color: #00d084;
-
 }
-.myFontTrans:hover {
+
+.myFontATrans:hover {
   color: white;
-
 }
 
-
-.navtrans{
+.navtrans {
   background-color: transparent;
-  
-  
 }
-.navlight{
+
+.navlight {
   background-color: white;
 }
-.navTranstion{
+
+.navTranstion {
+  right: 0px;
   transition: 200ms;
   transition-timing-function: ease-out;
 }
 
-
-
+.cardContainer {
+  padding: 3rem !important;
+  margin-top: 1.5rem !important;
+}
 
 .quotesSection {
   min-height: 400px;
 }
+
 section .box {
   position: relative;
   background: #f6f6f6;
   text-align: center;
-  transition: 800ms;
   width: 1380px;
-  height: 610px;
+  /* height: 610px; */
   padding: 64px 65px 65px 64px;
   border-radius: 8px;
   border: solid 0 #a7abad;
@@ -227,8 +205,8 @@ section .box {
 section .box h2 {
   width: 605px;
   height: 154px;
-  margin: 0 50px 36px  0;
-  font-family: 'NHaasGroteskDSPro-65Md', sans-serif;
+  margin: 0 50px 36px 0;
+  font-family: "NHaasGroteskDSPro-65Md", sans-serif;
   font-size: 45px;
   font-weight: 600;
   font-stretch: normal;
@@ -238,11 +216,12 @@ section .box h2 {
   text-align: left;
   color: #158864;
 }
+
 section .box p {
   width: 605px;
   height: 292px;
   margin: 31px 94px 4px 0;
-  font-family: 'NHaasGroteskDSPro-65Md', sans-serif;
+  font-family: "NHaasGroteskDSPro-65Md", sans-serif;
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -252,20 +231,23 @@ section .box p {
   text-align: left;
   color: #222c33;
 }
+
 section .box .boxImg {
   width: 597px;
   height: 441px;
 }
+
 section .box .boxImg img {
   width: 100%;
   height: 100%;
   background-image: url("/images/Layer-17.png");
 }
 
-.firstBlock{
+.firstBlock {
   height: 280px;
 }
-@media(max-width:1450px){
+
+@media (max-width: 1500px) {
   .myFontATrans {
     font-size: 15px;
     font-weight: normal;
@@ -274,6 +256,7 @@ section .box .boxImg img {
     line-height: 4.03;
     letter-spacing: 0.38px;
   }
+
   .myFontAlight {
     font-size: 15px;
     font-weight: normal;
@@ -282,27 +265,183 @@ section .box .boxImg img {
     line-height: 4.03;
     letter-spacing: 0.38px;
   }
+
   section .box h2 {
     width: 550px;
     font-size: 42px;
     line-height: 1.13;
-  
-}
-section .box p{
-  width:550px;
- padding: 30px 0px;
-  font-size: 17px;
- 
-}
-section .box .boxImg {
-  width: 450px;
-  height: 440px;
-}
-section .box .boxImg img {
-  width: 100%;
-  height: 100%;
-  background-image: url("/images/Layer-658.png");
+  }
+
+  section .box p {
+    width: 550px;
+    padding: 30px 0px;
+    font-size: 17px;
+  }
+
+  section .box .boxImg {
+    width: 550px;
+    height: 440px;
+  }
+
+  section .box .boxImg img {
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/Layer-658.png");
+  }
 }
 
+@media (max-width: 1366px) {
+  .logo {
+    height: 90px;
+    width: 190px;
+    top: -35px;
+    left: 5px;
+  }
+  section .box {
+    padding: 60px 60px 60px 60px;
+  }
+  section .box h2 {
+    width: 500px;
+    height: 145px;
+    margin: 0 40px 36px 0;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.14;
+  }
 
+  section .box p {
+    width: 480px;
+    height: 280px;
+    margin: 31px 40px 4px 0;
+    font-size: 16px;
+    line-height: 1.67;
+    letter-spacing: 0.54px;
+  }
+
+  section .box .boxImg {
+    width: 500px;
+    height: 441px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .logo {
+    height: 80px;
+    width: 180px;
+  }
+  .myFontATrans {
+    font-size: 13px;
+
+    line-height: 4;
+    letter-spacing: 0.3px;
+  }
+  .myFontAlight {
+    font-size: 14px;
+
+    padding: 0 4px;
+    letter-spacing: 0.3px;
+  }
+  .btnContact {
+    border-radius: 2px;
+    padding: 2px 5px;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #222c33;
+  }
+  section .box {
+    padding: 40px 40px 40px 40px;
+  }
+
+  section .box h2 {
+    width: 450px;
+    height: 154px;
+    margin: 0 30px 29px 0;
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  section .box p {
+    width: 450px;
+    margin: 31px 29px 4px 0;
+    font-size: 15px;
+  }
+  section .box .boxImg {
+    width: 480px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .headLine h1 {
+    margin: 80px 0px 80px 15px;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  .btnContact {
+    border-radius: 2px;
+    padding: 2px 5px;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    /* line-height: 4.31; */
+    letter-spacing: normal;
+    color: #222c33;
+  }
+  .cardContainer {
+    padding: 0rem !important;
+    margin-top: 4rem !important;
+  }
+  section .box {
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 412px) {
+  .headLine h1 {
+    margin: 30px 0px 40px 10px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  .secenderyLogo {
+    height: auto;
+  }
+  .cardContainer{
+    margin-top: 5.2rem !important;
+  }
+  section .box h2 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-size: 35px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #158864;
+  }
+  section .box p {
+    width: 100%;
+    /* height: 292px; */
+    margin: 0px 0px 90px  0px;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: 0.66px;
+    text-align: left;
+    color: #222c33;
+  }
+  section .box .boxImg {
+    width: 100%;
+    height: 300px;
+  }
 }

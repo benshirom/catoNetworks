@@ -43,3 +43,19 @@
     display: none;
     padding: 9px 55px 16px 55px;
   }
+
+
+
+  @media(max-width:1500px){
+  }
+  @media(max-width:1366px){
+  }
+  @media(max-width:1280px){
+  }
+  @media(max-width:1024px){
+    .accordion-title{
+      font-size: 23px;
+    }
+  }
+  @media(max-width:400px){
+  }

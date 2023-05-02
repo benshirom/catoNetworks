@@ -227,6 +227,7 @@
 
 }
 
+
 .slick-prev:before,
 .slick-next:before {
   color: black;
@@ -244,4 +245,31 @@
 
 .slick-current {
   opacity: 1;
+}
+@media(max-width:1500px){
+}
+@media(max-width:1366px){
+    
+}
+@media(max-width:1280px){
+}
+@media(max-width:1024px){
+    .slider {
+        /* width: 90%; */
+        margin: 50px auto;
+        border-radius: 5px;    
+    }
+}
+@media(max-width:412px){
+    .slider {
+        width: 90%;
+        margin: 50px 10px;
+        border-radius: 5px;    
+    }
+    .slick-slide {
+      margin: 10px 10px;
+      padding: 0px;
+    
+    }
+    
 }

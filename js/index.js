@@ -43,28 +43,29 @@ const setEvents=()=>{
     let logoDiv = document.querySelector('.logo');
     let logoImg = document.querySelector('#id_logoImg');
     window.onscroll = function() {
-   
-      if (document.documentElement.scrollTop <= 1){
-        // topNavA.className='none';
-        topNavA.className="d-flex justify-content-end pt-1"
-        logoImg.src="https://www.catonetworks.com/wp-content/uploads/2021/10/white.svg"
-        topNavB.className="d-flex justify-content-end navTranstion fixed-top mt-4  navtrans "
-        logoDiv.className="logo position-absolute ps-1"
-        // topNavB.children
-        // console.log("add")
-        aItems.forEach((item) => {
-          item.className="myFontATrans"
-        })
-      }
-      else if (document.documentElement.scrollTop > 1){
-        // topNavA.classList.remove('d-flex');
-        topNavA.className='d-flex justify-content-end none';
-        logoImg.src="https://www.catonetworks.com/wp-content/uploads/2022/03/cato-logo.svg"
-        topNavB.className="d-flex justify-content-between navTranstion fixed-top navlight  "
-        logoDiv.className="logo ps-2 miniLogo"
-        aItems.forEach((item) => {
-          item.className="myFontAlight"
-        })
+
+        if (document.documentElement.scrollTop <= 1){
+          // topNavA.className='none';
+          topNavA.className="d-flex justify-content-end pt-1"
+          logoImg.src="https://www.catonetworks.com/wp-content/uploads/2021/10/white.svg"
+          topNavB.className="d-flex justify-content-end navTranstion fixed-top mt-4  navtrans "
+          logoDiv.className="logo position-absolute ps-1"
+          // topNavB.children
+          // console.log("add")
+          aItems.forEach((item) => {
+            item.className="myFontATrans"
+          })
+        }
+        else if (document.documentElement.scrollTop > 1){
+          // topNavA.classList.remove('d-flex');
+          topNavA.className='d-flex justify-content-end none';
+          logoImg.src="https://www.catonetworks.com/wp-content/uploads/2022/03/cato-logo.svg"
+          topNavB.className="d-flex justify-content-between navTranstion fixed-top navlight  "
+          logoDiv.className="logo ps-2 miniLogo"
+          aItems.forEach((item) => {
+            item.className="myFontAlight"
+          })
+        }
         // console.log("remove")
       }
     };
@@ -72,7 +73,7 @@ const setEvents=()=>{
     
     
 
-}
+
 
 
 let qaArray = [

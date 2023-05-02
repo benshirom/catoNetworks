@@ -70,7 +70,18 @@
                 pauseOnFocus: true,
                 pauseOnDotsHover: false,
                 respondTo: 'window',
-                responsive: null,
+                responsive: [  
+                  {
+                    breakpoint: 480,
+                    settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 1,
+                      arrows: false,
+
+                    }
+                  },
+                ],
+
                 rows: 1,
                 rtl: false,
                 slide: '',
