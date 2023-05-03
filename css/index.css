@@ -1,13 +1,10 @@
-*{
-    box-sizing: border-box;
-  }
-  
-  body{
-    margin:0;
-    padding: 0;
-    background: silver;
-    font-family: 'NHaasGroteskDSPro-65Md', sans-serif;
-   
-  }
-  
-  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: silver;
+  font-family: "NHaasGroteskDSPro-65Md", sans-serif;
+}
