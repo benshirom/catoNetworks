@@ -284,7 +284,18 @@
     letter-spacing: normal;
     color: #158864;
 }
-
+@media (min-width: 1800px){
+    .sharedValuesImg {
+        width: 40%;
+        
+    }
+    .sharedValuesContainer .textWrap {
+        width: 40%;
+    }
+    .sharedValuesContainer {
+        margin: 40px 170px;
+    }
+}
 @media (max-width: 1500px) {
     .quoteP {
         width: 450px;
