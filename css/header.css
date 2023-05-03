@@ -392,12 +392,18 @@ section .box .boxImg img {
     letter-spacing: normal;
     color: #222c33;
   }
+  section .box .boxImg {
+    width: 400px;
+    height: 400px;
+  }
   .cardContainer {
     padding: 0rem !important;
     margin-top: 4rem !important;
   }
   section .box {
     border-radius: 0px;
+    /* padding: 35px 35px 35px 35px; */
+    width: 100%;
   }
 }
 

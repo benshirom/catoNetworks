@@ -16,7 +16,9 @@ class AccordionClass {
             <div class="accordion-title" id="accordion-${this.id}">
             <span id="qaIcon">
             </span>
+            <span>
             ${this.q}
+            </span>
              </div>
             <div class="accordion-content">
                 <p>${this.a}</p>
